@@ -1,0 +1,72 @@
+body {
+    background-color: #0D0E0F;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/* div {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(145deg, #ececec, #b8b8b8);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #aaaaaa,
+        -5px -5px 10px #ffffff,
+        inset 5px 5px 10px #aaaaaa,
+        inset -5px -5px 10px #ffffff;
+
+    /* transform-style: preserve-3d; */
+    /* transition: transform 1s; */
+
+
+.celestial {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    position: relative;
+    transform: rotate(-35deg);
+  }
+  .celestial::after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #0D0E0F;
+    position: absolute;
+    right: -66px;
+    -webkit-box-shadow: -68px 17px 54px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: -68px 17px 54px -14px rgba(0,0,0,0.75);
+box-shadow: -68px 17px 54px -14px rgba(0,0,0,0.75);
+  }
+
+
+.rotatationY {
+
+    animation-name: rotatationY;
+    animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+
+}
+
+@keyframes rotatationY {
+    0% {
+        transform: rotateY(2deg);
+    }
+    25% {
+        transform: rotateY(30deg);
+    }
+    50% {
+        transform: rotateY(2deg);
+    }
+    75% {
+        transform: rotateY(-30deg);
+    }
+    100% {
+        transform: rotateY(2deg);
+    }
+ 
+}
